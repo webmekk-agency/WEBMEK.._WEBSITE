@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refund Policy — WebMek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="../Image/WhatsApp_Image_2026-09-25_at_21.04.05-removebg-preview.png" alt="WebMek Logo">
+      </a>
+      <nav class="desktop-nav">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#portfolio">Work</a>
+        <a href="index.html#process">Process</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow"><span class="pulse-dot"></span> Transparency</div>
+        <h1>Refund <span class="gradient-text">Policy</span></h1>
+        <p>Last updated: September 2026</p>
+      </div>
+
+      <div class="panel" style="max-width: 860px; line-height: 1.8;">
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 0;">1. Deposit & Discovery Phase</h2>
+        <p class="muted">Initial project deposits reserve resources and kickstart strategy/wireframing phases. If a project is canceled prior to wireframe sign-off or design mockups, up to 80% of the deposit may be refunded depending on labor completed.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">2. Development & Milestone Payments</h2>
+        <p class="muted">Once wireframes/designs are approved and active technical development begins, payments for completed milestone stages are non-refundable as they cover engineer and designer labor hours.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">3. Project Cancellation</h2>
+        <p class="muted">If a client cancels a project mid-way through production, the client will only be billed for the hours and work completed up to the date of formal cancellation notice.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">4. Satisfaction Guarantee & Revisions</h2>
+        <p class="muted">We build dedicated revision loops into all plans to ensure deliverables match agreed specs. Refunds are not issued for design preference changes after final project sign-off.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">5. How to Request a Refund</h2>
+        <p class="muted">To submit a request, contact your project manager directly or reach out through the WebMek account portal with your project ID and reason for review.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span>© 2026 WebMek. All rights reserved.</span>
+      <div style="display: flex; gap: 18px;">
+        <a href="privacy.html" class="muted">Privacy Policy</a>
+        <a href="terms.html" class="muted">Terms of Service</a>
+        <a href="refund.html" class="muted">Refund Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const glow = id => document.getElementById(id);
+    window.addEventListener('mousemove', e => {
+      const g = glow('cursorGlow');
+      if (g) { g.style.left = e.clientX + 'px'; g.style.top = e.clientY + 'px'; }
+    });
+  </script>
+</body>
+</html>

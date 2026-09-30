@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — WebMek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+  <div class="bg-grid"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="../Image/WhatsApp_Image_2026-09-25_at_21.04.05-removebg-preview.png" alt="WebMek Logo">
+      </a>
+      <nav class="desktop-nav">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#portfolio">Work</a>
+        <a href="index.html#process">Process</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow"><span class="pulse-dot"></span> Security & Trust</div>
+        <h1>Privacy <span class="gradient-text">Policy</span></h1>
+        <p>Last updated: September 2026</p>
+      </div>
+
+      <div class="panel" style="max-width: 860px; line-height: 1.8;">
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 0;">1. Information We Collect</h2>
+        <p class="muted">We collect information you directly provide when filling out forms, submitting project
+          inquiries, registering an account, or communicating with us. This includes contact details, company names,
+          project requirements, and uploaded documents.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">2. How We Use Your Information
+        </h2>
+        <p class="muted">We use the information collected to deliver requested services, process project milestones,
+          manage client accounts, send project updates, improve platform performance, and respond to support queries.
+        </p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">3. Data Sharing & Third Parties
+        </h2>
+        <p class="muted">We do not sell or rent personal information to third parties. We only share necessary
+          operational data with trusted technical partners (such as database hosting or payment processors) under strict
+          confidentiality agreements.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">4. Security</h2>
+        <p class="muted">WebMek uses industry-standard encryption protocols (SSL/TLS), secure access controls, and
+          hashed authentication mechanisms to protect client data from loss, unauthorized access, or disclosure.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">5. Your Rights</h2>
+        <p class="muted">You have the right to request access to your personal data, request corrections, or request
+          complete account deletion at any time by contacting our privacy team.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span>© 2026 WebMek. All rights reserved.</span>
+      <div style="display: flex; gap: 18px;">
+        <a href="privacy.html" class="muted">Privacy Policy</a>
+        <a href="terms.html" class="muted">Terms of Service</a>
+        <a href="refund.html" class="muted">Refund Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const glow = id => document.getElementById(id);
+    window.addEventListener('mousemove', e => {
+      const g = glow('cursorGlow');
+      if (g) { g.style.left = e.clientX + 'px'; g.style.top = e.clientY + 'px'; }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebMek Admin</title>
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body class="dashboard-body">
+  <div class="container dashboard-shell">
+    <div class="dashboard-top"><div><span class="eyebrow">WebMek Control Center</span><h1>Lead Dashboard</h1><p>Customer enquiries, statuses and project management.</p></div><div class="dashboard-actions"><a class="btn btn-outline" href="/">Website</a><button class="btn btn-ghost" id="logoutBtn">Logout</button></div></div>
+    <div class="admin-stats" id="adminStats"></div>
+    <div class="panel"><div class="panel-head"><div><h2>Customer Leads</h2><p>New applications appear here automatically.</p></div><button class="btn btn-outline" id="refreshLeads">Refresh</button></div><div class="table-wrap"><table><thead><tr><th>Lead</th><th>Business</th><th>Contact</th><th>Plan / Budget</th><th>Requirement</th><th>Status</th></tr></thead><tbody id="leadsBody"><tr><td colspan="6">Loading...</td></tr></tbody></table></div></div>
+    <div class="panel"><div class="panel-head"><div><h2>Create Client Project</h2><p>After a lead is confirmed, attach a project to their client account.</p></div></div><form id="projectForm" class="form-grid"><label>User ID<input type="number" name="user_id" placeholder="Client user ID"></label><label>Lead ID<input type="number" name="lead_id" placeholder="Lead database ID"></label><label>Project Title<input name="title" required placeholder="Business Website"></label><label>Status<input name="status" value="Requirement Received"></label><label>Progress %<input type="number" name="progress" min="0" max="100" value="10"></label><label>Amount<input type="number" name="amount" min="0" value="0"></label><label>Paid<input type="number" name="paid" min="0" value="0"></label><label>Preview URL<input name="preview_url" placeholder="https://..."></label><div class="full-row"><button class="btn btn-primary" type="submit">Create Project</button></div><p class="form-status full-row" id="projectStatus"></p></form></div>
+  </div>
+  <script src="../static/admin.js"></script>
+</body>
+</html>

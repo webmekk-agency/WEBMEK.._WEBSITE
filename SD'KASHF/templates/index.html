@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WebMek - Affordable websites and digital solutions for local businesses.">
+  <title>WebMek — Websites That Bring Customers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome for Social Media Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+  <div class="cursor-glow"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <!-- BRAND LOGO REPLACED -->
+      <a href="#home" class="brand" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="../Image/WhatsApp_Image_2026-09-25_at_21.04.05-removebg-preview.png" alt="WebMek Logo"
+          style="height: 100px; width: auto; object-fit: contain;">
+      </a>
+      <nav class="desktop-nav">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a
+          href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-ghost" data-open-login>Login</button>
+        <button class="btn btn-primary" data-open-apply>Get Started ↗</button>
+      </div>
+      <button class="mobile-menu" aria-label="Open menu">☰</button>
+    </div>
+    <div class="mobile-nav" hidden>
+      <a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#portfolio">Portfolio</a><a
+        href="#about">About</a><a href="#contact">Contact</a>
+      <button class="btn btn-primary" data-open-apply>Get Started</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO SECTION -->
+    <section class="hero section"
+      style="background: linear-gradient(180deg, rgba(10, 15, 30, 0.85) 0%, rgba(10, 15, 30, 0.95) 100%), url('https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="pulse-dot"></span> Affordable digital solutions for local businesses</span>
+          <h1>Aapka Business.<br><span class="gradient-text">Ab Online.</span></h1>
+          <p class="hero-text">Professional websites, WhatsApp integration, booking systems and digital support —
+            designed for small and growing businesses.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" data-open-apply>Get Your Website ↗</button>
+            <a class="btn btn-outline btn-lg" href="#portfolio">See Our Work</a>
+          </div>
+
+          <!-- TRUST ROW LINKS -->
+          <div class="trust-row">
+            <a href="https://www.instagram.com/webmekagency?stkn=dzM4cmIwemV3dGZq" target="_blank" rel="noopener"
+              style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+              <i class="fa-brands fa-instagram" style="color: #E4405F;"></i> Instagram
+            </a>
+            <a href="https://facebook.com/webmekagency" target="_blank" rel="noopener"
+              style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+              <i class="fa-brands fa-facebook" style="color: #1877F2;"></i> Facebook
+            </a>
+            <a href="https://www.linkedin.com/in/webmek-agency-987a30438" target="_blank" rel="noopener"
+              style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+              <i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i> LinkedIn
+            </a>
+          </div>
+
+        </div>
+
+        <!-- HERO RIGHT CARD -->
+        <div class="hero-visual reveal delay-1">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <div class="browser-card floating"
+            style="box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 20px rgba(99, 102, 241, 0.2); border: 1px solid rgba(255, 255, 255, 0.12); backdrop-filter: blur(12px); border-radius: 14px; overflow: hidden;">
+
+            <!-- BROWSER HEADER -->
+            <div class="browser-top"
+              style="display: flex; align-items: center; padding: 10px 14px; background: rgba(15, 23, 42, 0.9); border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
+              <div style="display: flex; gap: 6px;">
+                <span
+                  style="width: 10px; height: 10px; border-radius: 50%; background: #ef4444; display: inline-block;"></span>
+                <span
+                  style="width: 10px; height: 10px; border-radius: 50%; background: #f59e0b; display: inline-block;"></span>
+                <span
+                  style="width: 10px; height: 10px; border-radius: 50%; background: #10b981; display: inline-block;"></span>
+              </div>
+              <div class="browser-url"
+                style="margin: 0 auto; background: rgba(255, 255, 255, 0.05); padding: 3px 12px; border-radius: 20px; font-size: 0.8rem; border: 1px solid rgba(255, 255, 255, 0.08);">
+                <i class="fa-solid fa-lock" style="font-size: 0.65rem; color: #10b981; margin-right: 4px;"></i>
+                <span class="agency" style="color: #e2e8f0; font-weight: 500;">webmek.agency</span>
+              </div>
+              <span
+                style="font-size: 0.7rem; color: #10b981; background: rgba(16, 185, 129, 0.15); padding: 2px 8px; border-radius: 12px; font-weight: 600;">●
+                Live</span>
+            </div>
+
+            <!-- BROWSER CARD CONTENT BODY -->
+            <div class="browser-content"
+              style="padding: 18px; background: linear-gradient(180deg, rgba(15, 23, 42, 0.92) 0%, rgba(10, 15, 30, 0.98) 100%), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80') center/cover no-repeat; background-blend-mode: overlay;">
+
+              <div class="mini-hero"
+                style="display: flex; justify-content: space-between; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.03); padding: 14px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.06);">
+                <div>
+                  <small
+                    style="color: #818cf8; font-weight: 700; letter-spacing: 0.5px; font-size: 0.7rem; display: block; margin-bottom: 4px;">LOCAL
+                    BUSINESS OFFER</small>
+                  <h3 style="font-size: 1.05rem; font-weight: 700; color: #fff; line-height: 1.3; margin: 0 0 6px 0;">
+                    Get 1 Year Free Hosting For Your Business.</h3>
+                  <div class="mini-lines">
+                    <p style="font-size: 0.75rem; color: #94a3b8; margin: 0;">*Standard terms & policies apply</p>
+                  </div>
+                </div>
+                <div class="mini-device">
+                  <div class="device-screen"
+                    style="background: linear-gradient(135deg, #4f46e5, #7c3aed); padding: 10px 12px; border-radius: 8px; text-align: center; color: white;">
+                    <b style="display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">30%
+                      OFF</b>
+                    <span style="font-size: 0.65rem; opacity: 0.9; display: block;">STARTER</span>
+                    <em
+                      style="font-style: normal; font-size: 0.7rem; text-decoration: underline; display: block; margin-top: 2px;">Book
+                      Now</em>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MINI BADGES ROW -->
+              <div class="mini-cards"
+                style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 14px; text-align: center;">
+                <div
+                  style="background: rgba(255, 255, 255, 0.05); padding: 8px 4px; border-radius: 6px; font-size: 0.72rem; color: #cbd5e1; border: 1px solid rgba(255, 255, 255, 0.08);">
+                  <i class="fa-solid fa-certificate"
+                    style="color: #f59e0b; display: block; margin-bottom: 4px; font-size: 0.85rem;"></i>
+                  Free SSL
+                </div>
+                <div
+                  style="background: rgba(255, 255, 255, 0.05); padding: 8px 4px; border-radius: 6px; font-size: 0.72rem; color: #cbd5e1; border: 1px solid rgba(255, 255, 255, 0.08);">
+                  <i class="fa-solid fa-server"
+                    style="color: #3b82f6; display: block; margin-bottom: 4px; font-size: 0.85rem;"></i>
+                  Free Hosting
+                </div>
+                <div
+                  style="background: rgba(255, 255, 255, 0.05); padding: 8px 4px; border-radius: 6px; font-size: 0.72rem; color: #cbd5e1; border: 1px solid rgba(255, 255, 255, 0.08);">
+                  <i class="fa-solid fa-headset"
+                    style="color: #10b981; display: block; margin-bottom: 4px; font-size: 0.85rem;"></i>
+                  24/7 Support
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="float-tag tag-one" style="box-shadow: 0 10px 25px rgba(0,0,0,0.3);">₹1,999 Start</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div><strong>01</strong><span>Tell us your idea</span></div>
+        <div><strong>02</strong><span>Get a clear quote</span></div>
+        <div><strong>03</strong><span>We build & launch</span></div>
+        <div><strong>04</strong><span>You grow online</span></div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal"><span class="eyebrow">What we do</span>
+          <h2>Everything your business needs to <span class="gradient-text">look professional online.</span></h2>
+          <p>Simple services. Clear pricing. No unnecessary complexity.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal"
+            style="background: linear-gradient(180deg, rgba(15, 20, 35, 0.88), rgba(10, 15, 30, 0.96)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80') center/cover no-repeat;">
+            <div class="icon">⌘</div>
+            <h3>Business Websites</h3>
+            <p>Fast, responsive websites for shops, salons, cafes, hotels, coaching centres and professionals.</p>
+            <a href="#contact">Explore →</a>
+          </article>
+          <article class="service-card reveal delay-1"
+            style="background: linear-gradient(180deg, rgba(15, 20, 35, 0.88), rgba(10, 15, 30, 0.96)), url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=600&q=80') center/cover no-repeat;">
+            <div class="icon">◫</div>
+            <h3>Booking & Enquiry</h3>
+            <p>Forms, appointment requests, event enquiries and direct WhatsApp communication.</p>
+            <a href="#contact">Explore →</a>
+          </article>
+          <article class="service-card reveal delay-2"
+            style="background: linear-gradient(180deg, rgba(15, 20, 35, 0.88), rgba(10, 15, 30, 0.96)), url('https://images.unsplash.com/photo-1556742049-0a67d1d2348c?auto=format&fit=crop&w=600&q=80') center/cover no-repeat;">
+            <div class="icon">◉</div>
+            <h3>E-Commerce</h3>
+            <p>Product listings, cart, checkout and online selling flows for growing businesses.</p>
+            <a href="#contact">Explore →</a>
+          </article>
+          <article class="service-card reveal"
+            style="background: linear-gradient(180deg, rgba(15, 20, 35, 0.88), rgba(10, 15, 30, 0.96)), url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=600&q=80') center/cover no-repeat;">
+            <div class="icon">⌁</div>
+            <h3>Google & Local Setup</h3>
+            <p>Connect maps, contact details, social links and local customer touchpoints.</p>
+            <a href="#contact">Explore →</a>
+          </article>
+          <article class="service-card reveal delay-1"
+            style="background: linear-gradient(180deg, rgba(15, 20, 35, 0.88), rgba(10, 15, 30, 0.96)), url('https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&w=600&q=80') center/cover no-repeat;">
+            <div class="icon">◍</div>
+            <h3>WhatsApp Integration</h3>
+            <p>Make it easy for customers to ask questions, request quotes and contact you.</p>
+            <a href="#contact">Explore →</a>
+          </article>
+          <article class="service-card reveal delay-2"
+            style="background: linear-gradient(180deg, rgba(15, 20, 35, 0.88), rgba(10, 15, 30, 0.96)), url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80') center/cover no-repeat;">
+            <div class="icon">✦</div>
+            <h3>Maintenance</h3>
+            <p>Content updates, fixes, small changes and ongoing support after launch.</p>
+            <a href="#contact">Explore →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="section dark-section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal"><span class="eyebrow">Simple pricing</span>
+          <h2>Start small. <span class="gradient-text">Grow later.</span></h2>
+          <p>Packages are designed around local-business budgets.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card reveal"><span class="plan">STARTER</span>
+            <div class="price">₹2,999 <small>starting</small></div>
+            <p>For basic online presence.</p>
+            <ul>
+              <li>2-3 page website</li>
+              <li>Domain</li>
+              <li>Mobile responsive</li>
+              <li>WhatsApp button</li>
+              <li>Google Maps</li>
+              <li>Contact section</li>
+            </ul>
+            <button class="btn btn-outline wide" data-plan="Starter — ₹2,999">Choose Starter</button>
+          </article>
+          <article class="price-card popular reveal delay-1">
+            <div class="popular-pill">MOST REQUESTED</div><span class="plan">BUSINESS</span>
+            <div class="price">₹4,999 <small>starting</small></div>
+            <p>For businesses ready to grow.</p>
+            <ul>
+              <li>Up to 4-5 pages</li>
+              <li>Domain</li>
+              <li>Custom design</li>
+              <li>Enquiry form</li>
+              <li>WhatsApp integration</li>
+              <li>Basic SEO structure</li>
+            </ul>
+            <button class="btn btn-primary wide" data-plan="Business — ₹4,999">Choose Business</button>
+          </article>
+          <article class="price-card reveal delay-2"><span class="plan">E-COMMERCE</span>
+            <div class="price">₹7,999 <small>starting</small></div>
+            <p>For advanced business needs.</p>
+            <ul>
+              <li>Up to 7-8 pages</li>
+              <li>Domain</li>
+              <li>Booking / enquiry flow</li>
+              <li>Custom sections</li>
+              <li>Advanced integrations</li>
+              <li>Priority support</li>
+            </ul>
+            <button class="btn btn-outline wide" data-plan="E-Commerce — ₹7,999">Choose Professional</button>
+          </article>
+          <article class="price-card reveal"><span class="plan">CUSTOM</span>
+            <div class="price">₹3,999+ <small>starting</small></div>
+            <p>For selling online.</p>
+            <ul>
+              <li>Product catalogue</li>
+              <li>Domain And Hosting</li>
+              <li>Cart & checkout</li>
+              <li>Order flow</li>
+              <li>Payment integration</li>
+              <li>Admin-ready structure</li>
+            </ul>
+            <button class="btn btn-outline wide" data-plan="Custom — ₹4,999+">Choose E-Commerce</button>
+          </article>
+        </div>
+        <p class="price-note">Domain, hosting, paid plugins and third-party services can be quoted separately at actual
+          cost.</p>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal"><span class="eyebrow">Selected work</span>
+          <h2>Show customers what you can <span class="gradient-text">build.</span></h2>
+          <p>From local businesses to ambitious brands, we build for every vision..</p>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card reveal">
+            <div class="portfolio-art art-1"
+              style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../Image/151cf4b7-323d-4ff6-a820-403c25ad2812.png') center/cover no-repeat;">
+              <span>VERDE</span>
+              <small>Premium Cookware &#9679; Smart Gadgets &#9679; Kitchenware</small>
+            </div>
+            <div class="portfolio-meta">
+              <div>
+                <h3>E-COMMERCE</h3>
+                <p>Seamless Shopping 0nline & Secure Checkout Online Payment </p>
+              </div>
+              <span> <a href="https://webmekk-agency.github.io/VERD--E-commerce-website/" target="_blank"
+                  rel="noopener">View Demo</a> →</span>
+            </div>
+          </article>
+          <article class="portfolio-card reveal delay-1">
+            <div class="portfolio-art art-2"
+              style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;">
+              <span>BREW&BITE</span>
+              <small>Coffee • Food • Community</small>
+            </div>
+            <div class="portfolio-meta">
+              <div>
+                <h3>Restaurant Website</h3>
+                <p>Menu + location + booking</p>
+              </div>
+              <span> <a href="https://webmekk-agency.github.io/CAFE/">View Demo</a> →</span>
+            </div>
+          </article>
+          <article class="portfolio-card reveal delay-2">
+            <div class="portfolio-art art-3"
+              style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../Image/218f0eae-26d2-42af-bdd6-daedca21e67f.png') center/cover no-repeat;">
+              <span>HEALTHCARE</span>
+              <small>Care + Trust + Healling</small>
+            </div>
+            <div class="portfolio-meta">
+              <div>
+                <h3>Hospital Website </h3>
+                <p> Department + Doctors + Appointments</p>
+              </div>
+              <span> <a href="https://webmekk-agency.github.io/CityCare-hospital/">View Demo</a> →</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS / ABOUT SECTION -->
+    <section class="section process-section" id="about">
+      <div class="container process-grid">
+        <div class="section-head left reveal"><span class="eyebrow">How WebMek works</span>
+          <h2>From first message to <span class="gradient-text">live website.</span></h2>
+          <p>Keep the process simple so local customers know exactly what happens next.</p>
+          <button class="btn btn-primary btn-lg" data-open-apply>Start My Project ↗</button>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><b>01</b>
+            <div>
+              <h3>Share your requirement</h3>
+              <p>Tell us your business, pages, features and budget.</p>
+            </div>
+          </div>
+          <div class="step reveal delay-1"><b>02</b>
+            <div>
+              <h3>Get a clear quote</h3>
+              <p>We confirm scope, timeline and any third-party costs.</p>
+            </div>
+          </div>
+          <div class="step reveal delay-2"><b>03</b>
+            <div>
+              <h3>Build & review</h3>
+              <p>You review the website before the final launch.</p>
+            </div>
+          </div>
+          <div class="step reveal"><b>04</b>
+            <div>
+              <h3>Launch & support</h3>
+              <p>Your site goes live and support continues after delivery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section cta-section" id="contact">
+      <div class="container cta-card reveal"
+        style="background: linear-gradient(135deg, rgba(20, 25, 45, 0.95), rgba(10, 15, 30, 0.95)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;">
+        <div><span class="eyebrow">Ready to go online?</span>
+          <h2>Let’s build something your customers can <span class="gradient-text">find, trust and contact.</span></h2>
+          <p>Apply in about a minute. Your enquiry is saved in WebMek and can open directly in WhatsApp.</p>
+        </div>
+        <div class="cta-actions">
+          <button class="btn btn-primary btn-lg" data-open-apply>Apply for Website ↗</button>
+          <a class="btn btn-outline btn-lg" data-whatsapp-link target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <!-- FOOTER BRAND LOGO REPLACED -->
+        <a class="brand" href="#home" style="display: inline-block;">
+          <img src="../Image/WhatsApp_Image_2026-09-25_at_21.04.05-removebg-preview.png" alt="WebMek Logo"
+            style="height: 80px; width: auto; object-fit: contain;">
+        </a>
+        <p
+          style="margin-top: 12px; margin-bottom: 16px; opacity: 0.8; max-width: 280px; font-size: 0.95rem; line-height: 1.5;">
+          High-performing, affordable websites and digital solutions built to grow Indian local businesses.</p>
+
+        <div style="display: flex; gap: 12px; margin-top: 16px; align-items: center;">
+          <a href="https://www.instagram.com/webmekagency?stkn=dzM4cmIwemV3dGZq" target="_blank" rel="noopener"
+            aria-label="Instagram" style="color: #E4405F; font-size: 1.25rem; transition: transform 0.2s;"
+            onmouseover="this.style.transform='scale(1.15)'" onmouseout="this.style.transform='scale(1)'"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com/webmekagency" target="_blank" rel="noopener" aria-label="Facebook"
+            style="color: #1877F2; font-size: 1.25rem; transition: transform 0.2s;"
+            onmouseover="this.style.transform='scale(1.15)'" onmouseout="this.style.transform='scale(1)'"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/webmek-agency-987a30438" target="_blank" rel="noopener"
+            aria-label="LinkedIn" style="color: #0A66C2; font-size: 1.25rem; transition: transform 0.2s;"
+            onmouseover="this.style.transform='scale(1.15)'" onmouseout="this.style.transform='scale(1)'"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/webmekk-agency" target="_blank" rel="noopener" aria-label="GitHub"
+            style="color: #FFFFFF; font-size: 1.25rem; transition: transform 0.2s;"
+            onmouseover="this.style.transform='scale(1.15)'" onmouseout="this.style.transform='scale(1)'"><i
+              class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <strong>Quick Links</strong>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About Us</a>
+      </div>
+
+      <div>
+        <strong>Services</strong>
+        <a href="#services">Business Websites</a>
+        <a href="#services">E-Commerce Stores</a>
+        <a href="#services">WhatsApp Booking</a>
+        <a href="#services">Google Maps Setup</a>
+        <a href="#services">Website Maintenance</a>
+      </div>
+
+      <div>
+        <strong>Get in Touch</strong>
+        <span style="display: block; margin-bottom: 8px;">
+          <i class="fa-brands fa-whatsapp" style="color: #25D366; margin-right: 6px;"></i>
+          <a href="https://wa.me/916351199175" target="_blank" rel="noopener"
+            style="color: inherit; text-decoration: none;">+91 6351199175</a>
+        </span>
+        <span style="display: block; margin-bottom: 8px;">
+          <i class="fa-regular fa-envelope" style="color: #6366f1; margin-right: 6px;"></i>
+          <a href="https://webmek@gmail.com" style="color: inherit; text-decoration: none;" target="_blank"
+            rel="noopener">webmek@gmail.com</a>
+        </span>
+        <span style="display: block; opacity: 0.8; font-size: 0.9rem; margin-top: 10px;">
+          <i class="fa-solid fa-location-dot" style="color: #ef4444; margin-right: 6px;"></i> India
+        </span>
+      </div>
+    </div>
+
+    <div class="container footer-bottom"
+      style="border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 20px; margin-top: 40px;">
+      <span>© 2026 WebMek. All rights reserved.</span>
+      <span><a href="privacy.html" style="color: inherit; text-decoration: none; margin-right: 12px;">Privacy Policy</a>
+        · <a href="terms.html" style="color: inherit; text-decoration: none; margin-right: 12px;">Terms of Service</a> ·
+        <a href="refund.html" style="color: inherit; text-decoration: none;">Refund Policy</a></span>
+    </div>
+  </footer>
+
+  <!-- MODALS -->
+  <div class="modal" id="applyModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel large" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close-modal>×</button>
+      <div class="modal-head"><span class="eyebrow">Start a project</span>
+        <h2>Tell us about your <span class="gradient-text">business.</span></h2>
+        <p>We save the enquiry in WebMek and prepare the complete WhatsApp message.</p>
+      </div>
+      <form id="applyForm" class="apply-form">
+        <input type="hidden" name="selectedPlan" id="selectedPlan">
+        <div class="form-grid">
+          <label>Full Name<input name="name" required placeholder="Your name"></label>
+          <label>Business Name<input name="business" required placeholder="Your business"></label>
+          <label>WhatsApp Number<input name="phone" required placeholder="10-digit number"></label>
+          <label>City<input name="city" required placeholder="Your city"></label>
+          <label>Business Type
+            <select name="businessType">
+              <option>Shop / Local Business</option>
+              <option>Restaurant / Cafe</option>
+              <option>Hotel / Event</option>
+              <option>Salon / Beauty</option>
+              <option>Coaching / Education</option>
+              <option>Professional / Portfolio</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Type of Website
+            <select name="budget">
+              <option>E-commerce</option>
+              <option>Restaurant</option>
+              <option>Clinic/Hospital</option>
+              <option>Shop</option>
+              <option>Other..</option>
+            </select>
+          </label>
+        </div>
+        <label>What do you need?
+          <textarea name="requirement" required rows="4"
+            placeholder="Example: 5-page website, gallery, WhatsApp, Google Maps and enquiry form."></textarea>
+        </label>
+        <div class="form-note">By submitting, you agree to be contacted about your enquiry. Final pricing depends on
+          confirmed scope and third-party costs.</div>
+        <button class="btn btn-primary btn-lg wide" type="submit" id="submitLeadBtn">Submit & Open WhatsApp ↗</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="loginModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close-modal>×</button>
+      <div class="modal-head"><span class="eyebrow">Client area</span>
+        <h2>Welcome back.</h2>
+
+      </div>
+      <div class="auth-tabs">
+        <button class="active" data-auth-tab="login"> <a href="#loginForm">Login</a></button>
+        <button data-auth-tab="signup"> <a href="#signupForm">Signup</a></button>
+      </div>
+      <form id="loginForm" class="apply-form auth-form">
+        <label>Email<input type="email" name="email" required placeholder="you@example.com"></label>
+        <label>Password<input type="password" name="password" required placeholder="••••••••"></label>
+        <button class="btn btn-primary btn-lg wide" type="submit">Login</button>
+        <p class="form-status" id="loginStatus"></p>
+      </form>
+      <form id="signupForm" class="apply-form auth-form" hidden>
+        <label>Full Name<input name="name" required placeholder="Your name"></label>
+        <label>WhatsApp<input name="phone" placeholder="10-digit number"></label>
+        <label>Email<input type="email" name="email" required placeholder="you@example.com"></label>
+        <label>Password<input type="password" name="password" required minlength="6"
+            placeholder="Minimum 6 characters"></label>
+        <button class="btn btn-primary btn-lg wide" type="submit">Create Account</button>
+        <p class="form-status" id="signupStatus"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="../static/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — WebMek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="../Image/WhatsApp_Image_2026-09-25_at_21.04.05-removebg-preview.png" alt="WebMek Logo">
+      </a>
+      <nav class="desktop-nav">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#portfolio">Work</a>
+        <a href="index.html#process">Process</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow"><span class="pulse-dot"></span> Legal</div>
+        <h1>Terms of <span class="gradient-text">Service</span></h1>
+        <p>Last updated: September 2026</p>
+      </div>
+
+      <div class="panel" style="max-width: 860px; line-height: 1.8;">
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 0;">1. Agreement to Terms</h2>
+        <p class="muted">By accessing or using the WebMek platform, client dashboard, and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">2. Services Provided</h2>
+        <p class="muted">WebMek provides web design, custom development, web application engineering, performance optimization, and digital strategy consulting services. Specific deliverables, scope, timelines, and milestones are outlined in individual project proposals or agreed plans.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">3. Client Responsibilities & Content</h2>
+        <p class="muted">Clients agree to provide all required text, branding assets, images, credentials, and feedback in a timely manner. Delays in providing necessary materials may adjust agreed delivery dates accordingly.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">4. Intellectual Property</h2>
+        <p class="muted">Upon final payment completion for a given project, full ownership rights to bespoke website design and client-specific custom code revert to the client. WebMek retains ownership of proprietary internal tools, frameworks, and reusable code libraries used to build the platform.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">5. Limitation of Liability</h2>
+        <p class="muted">WebMek will not be liable for indirect, incidental, special, or consequential damages resulting from platform downtime, third-party hosting failures, or unauthorized third-party access beyond reasonable security measures.</p>
+
+        <h2 style="font-family: 'Space Grotesk'; color: var(--text); margin-top: 36px;">6. Governing Law</h2>
+        <p class="muted">These Terms shall be governed by and construed in accordance with standard business and commercial laws, without regard to its conflict of law principles.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span>© 2026 WebMek. All rights reserved.</span>
+      <div style="display: flex; gap: 18px;">
+        <a href="privacy.html" class="muted">Privacy Policy</a>
+        <a href="terms.html" class="muted">Terms of Service</a>
+        <a href="refund.html" class="muted">Refund Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const glow = id => document.getElementById(id);
+    window.addEventListener('mousemove', e => {
+      const g = glow('cursorGlow');
+      if (g) { g.style.left = e.clientX + 'px'; g.style.top = e.clientY + 'px'; }
+    });
+  </script>
+</body>
+</html>
